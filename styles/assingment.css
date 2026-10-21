@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;  
+    box-sizing: border-box;
 }
 
 /* common style */
@@ -38,8 +39,9 @@ header{
     margin:0 auto;
 }
 
+
 .nav-container{
-    margin: 21px 120px 35px 183px;
+    margin: 21px 120px 24px 183px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,4 +56,95 @@ header{
 }
 .list-container li a{
     text-decoration: none;
+}
+/* banner section start */
+
+.hero{
+    min-height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(rgba(8, 27, 43, 0.24), rgba(8, 27, 43, 0.329)),url('../assets/hero-bg.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+}
+
+.hero-container{
+    max-width: 900px;
+    width: 100%;
+}
+
+.badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #e9eceb;
+    color: #28794c;
+    padding: 7px 13px;
+    border-radius: 30px;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: #469165;
+    border-radius: 50%;
+}
+
+.hero-container h1{
+    color: #e0e2e5;
+    font-size: 60px;
+    line-height: 1.15;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+ h1 span{
+    color: #30B868;
+}
+
+.hero-container p{
+    color: #e0e2e5;
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+
+.hero-container .btn {
+    text-decoration: none;
+    padding: 13px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+
+.btn-primary {
+    background: #38845e;
+    color: white;
+}
+
+
+.btn-primary:hover {
+    background: #3cb677;
+}
+
+.btn-secondary {
+    border: 1px solid #cbd2d8;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
 }
