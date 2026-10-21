@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+/* common style */
+
+.inter-font-style {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.same-btn{
+    padding: 12.5px 16px;
+    border: none;
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.same-btn:hover{
+    padding: 12.5px 16px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+/* Nav section start */
+header{
+    max-width: 1360px;
+    width: 71%;
+    margin:0 auto;
+}
+
+.nav-container{
+    margin: 21px 120px 35px 183px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-container{
+    display: flex;
+    gap: 32px;
+}
+.list-container li{
+    list-style: none;
+}
+.list-container li a{
+    text-decoration: none;
+}
