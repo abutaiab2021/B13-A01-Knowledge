@@ -159,6 +159,7 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .notes-heading h1{
@@ -211,4 +212,55 @@ header{
 .card-box p{
     font-size: 16px;
     color: #627382;
+}
+
+/* second brain start */
+#second-brain{
+    max-width: 1360px;
+    width: 71%;
+    margin: 0 auto;
+}
+
+.brain-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brain-image{
+    max-width: 700px;
+    width: 100%;
+}
+
+.brain-content{
+    max-width: 700px;
+    width: 100%;
+}
+
+.brain-content h4{
+    font-size: 16px;
+    color:#30B868;
+    margin-bottom: 16px;
+}
+.brain-content h1{
+    font-size: 48px;
+    color:#001931;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.brain-content p{
+    font-size: 16px;
+    color:#627382;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+.brain-content ul li{
+    color:#001931;
+    list-style: none;
+}
+
+li i{
+    color :#30B868;
+    margin-right: 10px;
 }
