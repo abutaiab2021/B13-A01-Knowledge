@@ -283,6 +283,8 @@ li i{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 120px;
 }
 
 .ready-content{
@@ -318,4 +320,43 @@ li i{
     list-style: none;
     text-align: center;
     color: #627382;
+}
+
+/* footer section start */
+footer{
+     background-color: #001931;
+     /* background-color: #9ba8a2; */
+}
+#footer-section{
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    height: 384px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.social-icon h4{
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.sicons img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+hr{
+    margin-bottom: 30px;
+}
+
+.copy-right p{
+    color: #FAFAFA;
+    text-align: center;
 }
