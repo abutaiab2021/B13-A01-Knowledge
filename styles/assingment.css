@@ -20,6 +20,10 @@
     font-weight: 600;
     border-radius: 5px;
 }
+.same-btn a{
+    text-decoration: none;
+    color: white;
+}
 
 .same-btn:hover{
     padding: 12.5px 16px;
@@ -219,6 +223,7 @@ header{
     max-width: 1360px;
     width: 71%;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .brain-container{
@@ -263,4 +268,54 @@ header{
 li i{
     color :#30B868;
     margin-right: 10px;
+}
+
+/* ready to think start */
+#ready-think{
+    max-width: 1360px;
+    width: 100%;
+    margin: auto;
+
+    text-align: center;
+    background-color: #F7F6F2;
+    height: 385px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ready-content{
+    max-width: 800px;
+}
+
+.ready-content h1{
+    font-size: 50px;
+    color: #001931;
+    font-weight: 800;
+    margin-bottom: 16px;
+    padding: 40px 40px 0;
+}
+.ready-content p{
+    font-size: 20px;
+    color:#627382;
+    margin-bottom: 16px;
+    /* padding: 40px 40px 0; */
+}
+
+.ready-content button{
+   margin-bottom: 16px;
+}
+
+.ready-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ready-list li{
+    list-style: none;
+    text-align: center;
+    color: #627382;
 }
